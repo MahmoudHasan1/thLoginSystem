@@ -1,0 +1,128 @@
+:root{
+    --pageColor: #24353f;
+    --fontColor: #17a2b8;
+    --fontFamily: sans-serif;
+}
+
+
+body{
+    background-color: var(--pageColor);
+}
+
+h1{
+    color: var(--fontColor);
+}
+
+.loginBox{
+    background-color: var(--pageColor);
+    box-shadow: 5px 5px 5px 3px rgb(43, 43, 43);
+
+    
+}
+
+.signUp{
+    box-shadow: 5px 5px 5px 3px rgb(43, 43, 43);
+}
+
+button#signUp{
+    color: #17a2b8;
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+}
+
+button#signUp:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+input.input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: transparent;
+    height: 40px;
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #17a2b8;
+}
+
+a.logIn{
+    color: #17a2b8;
+    height: 40px;
+    border: 1px solid #17a2b8;
+    background-color: transparent;
+    transition: 0.3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+a.logIn:hover{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+a.signUp:hover{
+
+    text-decoration: none;
+}
+
+
+input.input::placeholder{
+    color: white;
+    text-indent: 20px;
+}
+
+button#signIn{
+    background-color: transparent;
+    color: #17a2b8;
+    border: #17a2b8 1px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button#signIn:hover{
+    background-color: #17a2b8;
+    color: white;
+}
